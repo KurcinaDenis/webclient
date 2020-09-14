@@ -1,0 +1,43 @@
+/**************************************
+    Default Styles
+***************************************/
+@import 'default/variables';
+@import 'default/mixins';
+@import 'default/reset';
+@import 'default/typography';
+@import 'default/extend';
+@import 'default/shortcode';
+@import 'default/spacing';
+@import 'default/list';
+@import 'default/dark-version';
+@import 'default/preview';
+
+
+/**************************************
+    Components Styles
+***************************************/
+
+@import '../../../src/component/header/header';
+@import '../../../src/component/header/mainmenu';
+@import '../../../src/component/portfolio/portfolio';
+@import '../../../src/component/services/service';
+@import '../../../src/component/slider/slider';
+@import '../../../src/component/counter/counterup';
+@import '../../../src/component/testimonial/testimonial';
+@import '../../../src/component/brand/brand';
+@import '../../../src/component/team/team';
+@import '../../../src/component/tab/tab';
+@import '../../../src/component/accordion/accordion';
+@import '../../../src/component/contact/contact';
+@import '../../../src/component/404/404';
+@import '../../../src/component/common/breadcrump';
+@import '../../../src/component/common/section-title';
+@import '../../../src/component/common/button';
+@import '../../../src/component/common/pagination';
+@import '../../../src/component/common/socialicon';
+@import '../../../src/component/footer/footer';
+@import '../../../src/component/blog/blog';
+@import '../../../src/component/blog/blog-details';
+@import '../../../src/component/about/about';
+@import '../../../src/component/portfolio/portfolio-details';
+@import '../../../src/component/services/service-details';
